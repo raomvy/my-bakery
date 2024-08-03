@@ -1,0 +1,215 @@
+@media (min-width:750px) and (max-width:991px) {
+  .menu-items {
+    width: 40%;
+  }
+
+  .text-about {
+    margin-top: 40px;
+    padding: 40px 20px;
+  }
+
+  .text {
+    h4 {
+      font-size: 16px;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .second-image {
+    display: block;
+    width: 20%;
+    position: absolute;
+    top: 470px;
+    right: 20px;
+    margin-right: 70px;
+  }
+
+  .second-text {
+    width: 80%;
+  }
+
+  .second-main {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .third-text {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .box {
+    width: 50%;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .four-main {
+    padding: 100px 70px;
+  }
+
+  .four-left>h1 {
+    width: 50%;
+    font-size: 35px !important;
+  }
+
+  .six-para {
+    font-size: 16px;
+    margin: 0 50px;
+  }
+
+  .six-items {
+    padding: 50px;
+  }
+
+  .six-container {
+    width: 33%;
+    padding: 0 20px;
+  }
+
+  .six-rate {
+    display: block;
+    text-align: start;
+  }
+
+  .five-text {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .six-date {
+    display: block;
+    text-align: start;
+  }
+
+  .footer {
+
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .footer-box {
+    width: 50%;
+  }
+
+  .about-img {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  .second-about-main {
+    padding: 100px 70px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+  .top-contain {
+    display: flex !important;
+    position: relative !important;
+    /* top: -80px; */
+  }
+
+  /* .header {
+    position: relative !important;
+    top: 50px;
+  } */
+
+  .text-about {
+    margin-top: 50px;
+    padding: 40px 20px;
+  }
+
+  .text>h1 {
+    font-size: 70px;
+  }
+
+  .second-text {
+    width: 60%;
+  }
+
+  .second-image {
+    width: 40%;
+    top: 160px;
+    display: block !important;
+  }
+
+  .box {
+    width: 25%;
+  }
+
+  .box-image {
+    width: 100%;
+  }
+
+  .four-left {
+    width: 50%;
+  }
+
+  .four-right {
+    width: 50%;
+  }
+
+  .six-items {
+    /* width: 30%; */
+    padding: 30px;
+  }
+
+  .six-container {
+    width: 30%;
+  }
+
+  .six-rate {
+    display: flex;
+
+    span {
+      width: 50%;
+    }
+  }
+
+  .six-date {
+    display: flex;
+  }
+
+  .footer {
+    padding: 100px 30px;
+    justify-content: space-between !important;
+
+  }
+
+  .footer-box {
+    width: 30%;
+  }
+
+  .about-img {
+    width: 25%;
+    padding: 0 20px;
+    cursor: pointer;
+  }
+
+  .menu-header {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+}
