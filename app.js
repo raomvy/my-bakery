@@ -35,18 +35,18 @@ menuitemsoverly.addEventListener(
 
 
 
-$(document).ready(function(){
-    let reviews = $('.five-left');
-    let currentIndex = 0;
+// (document).ready(function(){
+//     let reviews = $('.five-left');
+//     let currentIndex = 0;
 
-    function showNextReview() {
-        reviews.eq(currentIndex).removeClass('active');
-        currentIndex = (currentIndex + 1) % reviews.length;
-        reviews.eq(currentIndex).addClass('active');
-    }
+//     function showNextReview() {
+//         reviews.eq(currentIndex).removeClass('active');
+//         currentIndex = (currentIndex + 1) % reviews.length;
+//         reviews.eq(currentIndex).addClass('active');
+//     }
 
-    setInterval(showNextReview, 5000); // Change slide every 5 seconds
-});
+//     setInterval(showNextReview, 5000); // Change slide every 5 seconds
+// });
 
 
 
